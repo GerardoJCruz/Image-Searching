@@ -1,0 +1,8 @@
+# Dependecies
+node_modules/
+
+# Dev use
+css.txt
+
+# Package manager
+package-lock.json

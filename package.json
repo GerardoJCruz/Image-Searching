@@ -1,0 +1,22 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "description": "App to search images using the api of pixabay",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerardoJCruz/images.git"
+  },
+  "author": "Gerardo J Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GerardoJCruz/images/issues"
+  },
+  "homepage": "https://github.com/GerardoJCruz/images#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}
