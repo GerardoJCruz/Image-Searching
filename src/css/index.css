@@ -17,11 +17,11 @@ html {
     margin   : 0 auto;
 }
 
-.searching__button {
+.searching__button, .pager__links li{
     background-color: rgba(255, 255, 0, 1);
 }
 
-.searching__button:hover {
+.searching__button:hover, .pager__links li:hover {
     background-color: rgba(255, 255, 0, 0.7);
 }
 
@@ -30,6 +30,7 @@ html {
     grid-template-columns: repeat(4, 1fr);
     column-gap           : 1rem;
     row-gap              : 1rem;
+    justify-content: center;
 }
 
 .card__info {
@@ -43,6 +44,7 @@ html {
 .card img {
     height    : 12rem;
     object-fit: cover;
+    max-width: 100%;
 }
 .card__button{
     background-color: rgba(0, 150, 255, 0.7);
@@ -52,4 +54,11 @@ html {
 .card__button:hover{
     background-color: rgba(0, 150, 255, 1.2);
     color: white;
+}
+
+.pager__links li{
+    font-weight: bold;
+    text-align: center;
+    width: 2.5rem;
+    padding: 0.5rem;
 }

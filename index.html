@@ -13,12 +13,15 @@
     <div class="container mt-5">
         <h1 class="text-center fs-2 fw-bold text-white mb-5">PIXABAY IMAGE SEARCH</h1>
 
-        <form class="searching w-50 m-auto">
-            <p class="searching__title text-white text-uppercase fs-5 fw-bold mb-3">write what you want to search</p>
-            <input type="text" class="searching__input w-100 border rounded p-2 mb-3" placeholder="What you want to search. Example: Coffe or Cars">
+        <form class="searching w-50 m-auto" id="myForm">
+            <label for="searching" class="searching__title text-white text-uppercase fs-5 fw-bold mb-3">write what you want to search</label>
+            <input id="searching" name="searching" type="text" class="searching__input w-100 border rounded p-2 mb-3" placeholder="What you want to search. Example: Coffe or Cars">
             <input type="submit" class="searching__button rounded w-100 p-1 fs-4 border-0 " value="Search images">
         </form>
 
+        <div class="cards__container mt-5" id="cards__container"></div>
+
+        <div id="pager" class="pager"></div>
         
     </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
