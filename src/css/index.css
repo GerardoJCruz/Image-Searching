@@ -17,20 +17,31 @@ html {
     margin   : 0 auto;
 }
 
-.searching__button, .pager__links li{
+.searching__button, .pager a{
     background-color: rgba(255, 255, 0, 1);
 }
 
-.searching__button:hover, .pager__links li:hover {
+.searching__button:hover, .pager a:hover, .selected {
     background-color: rgba(255, 255, 0, 0.7);
 }
 
 .cards__container {
     display              : grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap           : 1rem;
     row-gap              : 1rem;
     justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .cards__container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 1200px) {
+    .cards__container{
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 .card__info {
@@ -56,9 +67,10 @@ html {
     color: white;
 }
 
-.pager__links li{
+.pager a{
     font-weight: bold;
     text-align: center;
     width: 2.5rem;
     padding: 0.5rem;
+    color: black;
 }
