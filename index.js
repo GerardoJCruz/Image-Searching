@@ -48,6 +48,7 @@ const getImages = (searching_term) => {
         })
 }
 
+
 // Function to display images
 const displayImages = (data) => {
     data.hits.forEach(e => {
