@@ -52,11 +52,13 @@ html {
     font-weight: bold;
 }
 
+
 .card img {
     height    : 12rem;
     object-fit: cover;
     max-width: 100%;
 }
+
 .card__button{
     background-color: rgba(0, 150, 255, 0.7);
     color: white;
